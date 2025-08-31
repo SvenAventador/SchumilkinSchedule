@@ -1,13 +1,44 @@
 import React from 'react'
 
 const LessonCard = ({ lesson }) => {
-    const groupLabel = typeof lesson.group === 'string' ? lesson.group
-                                                            : lesson.group.toString()
+    const groupLabel = typeof lesson.group === 'string' ?
+        lesson.group : lesson.group.toString()
 
     const typeIcons = {
         'ЛЕК': '📘',
         'ПР': '🛠️',
         'Л/Р': '🧪',
+    }
+
+    const renderDateList = () => {
+        if (lesson.type !== 'Л/Р' ||
+            !lesson.date ||
+            !lesson.date.trim())
+            return null
+
+        const dateStrings = lesson.date.split(' ').filter(Boolean)
+        const today = new Date()
+        today.setHours(0, 0, 0, 0)
+
+        return (
+            <div className="lesson-dates">
+                {dateStrings.map((d) => {
+                    const [day, month] = d.split('.')
+                    const date = new Date(`2025-${month}-${day}`)
+                    date.setHours(0, 0, 0, 0)
+
+                    let status = 'future'
+                    if (date.getTime() === today.getTime())
+                        status = 'today'
+                    if (date < today)
+                        status = 'past'
+
+                    return (
+                        <span key={d} className={`date-item ${status}`}>{d}</span>
+                    )
+                })}
+            </div>
+        )
     }
 
     return (
@@ -31,6 +62,8 @@ const LessonCard = ({ lesson }) => {
                         <span className="lesson-auditory">{lesson.auditory}</span>
                     </div>
                 </div>
+
+                {renderDateList()}
             </div>
         </div>
     )
