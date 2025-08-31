@@ -1,0 +1,272 @@
+[
+  {
+    "group": 4233,
+    "day": "ПН",
+    "time": "13:30",
+    "date": "01.09 15.09 29.09 13.10 27.10 10.11 24.11 08.12",
+    "subject": "ОАиП",
+    "type": "Л/Р",
+    "auditory": "219а",
+    "weekType": "ЧЕТ"
+  },
+  {
+    "group": 4233,
+    "day": "ПН",
+    "time": "15:10",
+    "date": "01.09 15.09 29.09 13.10 27.10 10.11 24.11 08.12",
+    "subject": "ОАиП",
+    "type": "Л/Р",
+    "auditory": "219а",
+    "weekType": "ЧЕТ"
+  },
+  {
+    "group": "4231, 4234, 4236",
+    "day": "ПН",
+    "time": "13:30",
+    "date": "",
+    "subject": "ОПБД",
+    "type": "ЛЕК",
+    "auditory": "409",
+    "weekType": "НЕЧЕТ"
+  },
+  {
+    "group": 4432,
+    "day": "ВТ",
+    "time":	"09:40",
+    "date":	"",
+    "subject": "ВиПКС",
+    "type":	"ПР",
+    "auditory":	"219а",
+    "weekType":	"ЧЕТ"
+  },
+  {
+    "group": 4235,
+    "day": "ВТ",
+    "time":	"11:20",
+    "date":	"",
+    "subject": "ОАиП",
+    "type":	"ПР",
+    "auditory":	"221",
+    "weekType":	"ЧЕТ"
+  },
+  {
+    "group": "4232, 4233, 4235, 4237",
+    "day": "ВТ",
+    "time":	"13:30",
+    "date":	"",
+    "subject": "ОАиП",
+    "type":	"ЛЕК",
+    "auditory":	"419",
+    "weekType":	"ЧЕТ"
+  },
+  {
+    "group": "4232, 4233, 4235, 4237",
+    "day": "ВТ",
+    "time":	"15:10",
+    "date":	"",
+    "subject": "ОПБД",
+    "type":	"ЛЕК",
+    "auditory":	"419",
+    "weekType":	"ЧЕТ"
+  },
+  {
+    "group": "4237",
+    "day": "ВТ",
+    "time":	"09:40",
+    "date":	"",
+    "subject": "ОПБД",
+    "type":	"ПР",
+    "auditory":	"113",
+    "weekType":	"НЕЧЕТ"
+  },
+  {
+    "group": "4432, 4433, 4435, 4437",
+    "day": "ВТ",
+    "time":	"11:20",
+    "date":	"",
+    "subject": "ВиПКС",
+    "type":	"ЛЕК",
+    "auditory":	"419",
+    "weekType":	"НЕЧЕТ"
+  },
+  {
+    "group": 4233,
+    "day": "СР",
+    "time":	"08:00",
+    "date":	"",
+    "subject": "ОПБД",
+    "type":	"ПР",
+    "auditory":	"206",
+    "weekType":	"ЧЕТ"
+  },
+  {
+    "group": 4435,
+    "day": "СР",
+    "time":	"11:20",
+    "date":	"",
+    "subject": "ВиПКС",
+    "type":	"ПР",
+    "auditory":	"221",
+    "weekType":	"ЧЕТ"
+  },
+  {
+    "group": 4233,
+    "day": "СР",
+    "time":	"11:20",
+    "date":	"",
+    "subject": "ОАиП",
+    "type":	"ПР",
+    "auditory":	"219а",
+    "weekType":	"НЕЧЕТ"
+  },
+  {
+    "group": 4237,
+    "day": "ЧТ",
+    "time":	"08:00",
+    "date":	"",
+    "subject": "ОАиП",
+    "type":	"ПР",
+    "auditory":	"219а",
+    "weekType":	"ЧЕТ"
+  },
+  {
+    "group": 4433,
+    "day": "ЧТ",
+    "time":	"11:20",
+    "date":	"",
+    "subject": "ВиПКС",
+    "type":	"ПР",
+    "auditory":	"509",
+    "weekType":	"ЧЕТ"
+  },
+  {
+    "group": 4235,
+    "day": "ЧТ",
+    "time":	"13:30",
+    "date":	"04.09 18.09 02.10 16.10 30.10 13.11 27.11 11.12",
+    "subject": "ОАиП",
+    "type":	"Л/Р",
+    "auditory":	"221",
+    "weekType":	"ЧЕТ"
+  },
+  {
+    "group": 4235,
+    "day": "ЧТ",
+    "time":	"15:10",
+    "date":	"04.09 18.09 02.10 16.10 30.10 13.11 27.11 11.12",
+    "subject": "ОАиП",
+    "type":	"Л/Р",
+    "auditory":	"221",
+    "weekType":	"ЧЕТ"
+  },
+  {
+    "group": 4235,
+    "day": "ЧТ",
+    "time":	"11:20",
+    "date":	"",
+    "subject": "ОПБД",
+    "type":	"ПР",
+    "auditory":	"223",
+    "weekType":	"НЕЧЕТ"
+  },
+  {
+    "group": 4231,
+    "day": "ПТ",
+    "time":	"08:00",
+    "date":	"",
+    "subject": "ОПБД",
+    "type":	"ПР",
+    "auditory":	"206",
+    "weekType":	"ЧЕТ"
+  },
+  {
+    "group": 4234,
+    "day": "ПТ",
+    "time":	"11:20",
+    "date":	"",
+    "subject": "ОПБД",
+    "type":	"ПР",
+    "auditory":	"437",
+    "weekType":	"ЧЕТ"
+  },
+  {
+    "group": 4232,
+    "day": "ПТ",
+    "time":	"08:00",
+    "date":	"",
+    "subject": "ОПБД",
+    "type":	"ПР",
+    "auditory":	"227",
+    "weekType":	"НЕЧЕТ"
+  },
+  {
+    "group": 4232,
+    "day": "ЧТ",
+    "time":	"09:40",
+    "date":	"",
+    "subject": "ОАиП",
+    "type":	"ПР",
+    "auditory":	"219а",
+    "weekType":	"НЕЧЕТ"
+  },
+  {
+    "group": 4232,
+    "day": "СБ",
+    "time":	"09:40",
+    "date":	"06.09 20.09 04.10 18.10 01.11 15.11 29.11 13.12",
+    "subject": "ОАиП",
+    "type":	"Л/Р",
+    "auditory":	"227",
+    "weekType":	"ЧЕТ"
+  },
+  {
+    "group": 4232,
+    "day": "СБ",
+    "time":	"11:20",
+    "date":	"06.09 20.09 04.10 18.10 01.11 15.11 29.11 13.12",
+    "subject": "ОАиП",
+    "type":	"Л/Р",
+    "auditory":	"227",
+    "weekType":	"ЧЕТ"
+  },
+  {
+    "group": 4437,
+    "day": "СБ",
+    "time":	"13:30",
+    "date":	"",
+    "subject": "ВиПКС",
+    "type":	"ПР",
+    "auditory":	"227",
+    "weekType":	"ЧЕТ"
+  },
+  {
+    "group": 4236,
+    "day": "СБ",
+    "time":	"15:10",
+    "date":	"",
+    "subject": "ОПБД",
+    "type":	"ПР",
+    "auditory":	"204",
+    "weekType":	"ЧЕТ"
+  },
+  {
+    "group": 4237,
+    "day": "СБ",
+    "time":	"11:20",
+    "date":	"13.09 27.09 11.10 25.10 08.11 22.11 06.12 20.12",
+    "subject": "ОАиП",
+    "type":	"Л/Р",
+    "auditory":	"227",
+    "weekType":	"НЕЧЕТ"
+  },
+  {
+    "group": 4237,
+    "day": "СБ",
+    "time":	"13:30",
+    "date":	"13.09 27.09 11.10 25.10 08.11 22.11 06.12 20.12",
+    "subject": "ОАиП",
+    "type":	"Л/Р",
+    "auditory":	"227",
+    "weekType":	"НЕЧЕТ"
+  }
+]
