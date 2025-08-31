@@ -84,7 +84,11 @@ const App = () => {
     return (
         <div className={`app ${theme}`}>
             <header className="app-header">
-                <h1>🎓 Расписание преподавателя</h1>
+                <h1 onClick={() => {
+                    setCurrentDate(new Date())
+                }}>
+                    🎓 Расписание преподавателя
+                </h1>
                 <button onClick={toggleTheme}
                         className="theme-toggle">
                     {theme === 'light' ? '☀️' : '🌙'}
@@ -112,7 +116,10 @@ const App = () => {
                         filteredLessons.length > 0 ? (
                             filteredLessons.sort((a, b) => a.time.localeCompare(b.time))
                                            .map((lesson, index) =>
-                                               <LessonCard key={index} lesson={lesson}/>
+                                               <LessonCard key={index}
+                                                           lesson={lesson}
+                                                           onDateClick={(date) => setCurrentDate(new Date(date))}
+                                               />
                                            )
                     ) : (
                         <p className="no-classes-large">Сегодня нет занятий</p>

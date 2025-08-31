@@ -1,6 +1,6 @@
 import React from 'react'
 
-const LessonCard = ({ lesson }) => {
+const LessonCard = ({lesson, onDateClick}) => {
     const groupLabel = typeof lesson.group === 'string' ?
         lesson.group : lesson.group.toString()
 
@@ -11,9 +11,9 @@ const LessonCard = ({ lesson }) => {
     }
 
     const renderDateList = () => {
-        if (lesson.type !== 'Л/Р' ||
-            !lesson.date ||
-            !lesson.date.trim())
+        if (lesson.type !== 'Л/Р'
+            || !lesson.date
+            || !lesson.date.trim())
             return null
 
         const dateStrings = lesson.date.split(' ').filter(Boolean)
@@ -22,21 +22,36 @@ const LessonCard = ({ lesson }) => {
 
         return (
             <div className="lesson-dates">
-                {dateStrings.map((d) => {
-                    const [day, month] = d.split('.')
-                    const date = new Date(`2025-${month}-${day}`)
-                    date.setHours(0, 0, 0, 0)
+                <span className="date-label">
+                    <i className="icon">📅</i>
+                    Расписание лаб:
+                </span>
+                {
+                    dateStrings.map((d) => {
+                        const [day, month] = d.split('.')
+                        const date = new Date(`2025-${month}-${day}`)
+                        date.setHours(0, 0, 0, 0)
 
-                    let status = 'future'
-                    if (date.getTime() === today.getTime())
-                        status = 'today'
-                    if (date < today)
-                        status = 'past'
+                        let status = 'future'
+                        if (date.getTime() === today.getTime())
+                            status = 'today'
+                        if (date < today)
+                            status = 'past'
 
-                    return (
-                        <span key={d} className={`date-item ${status}`}>{d}</span>
-                    )
-                })}
+                        const handleClick = (e) => {
+                            e.stopPropagation()
+                            onDateClick(date)
+                        }
+
+                        return (
+                            <span key={d}
+                                  className={`date-item ${status}`}
+                                  onClick={handleClick}
+                                  title={`Перейти к ${d}`}>{d}
+                            </span>
+                        )
+                    })
+                }
             </div>
         )
     }
