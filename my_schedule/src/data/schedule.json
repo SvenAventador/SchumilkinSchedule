@@ -6,7 +6,7 @@
     "date": "01.09 15.09 29.09 13.10 27.10 10.11 24.11 08.12",
     "subject": "ОАиП",
     "type": "Л/Р",
-    "auditory": "219а",
+    "auditory": "204",
     "weekType": "ЧЕТ"
   },
   {
@@ -16,7 +16,7 @@
     "date": "01.09 15.09 29.09 13.10 27.10 10.11 24.11 08.12",
     "subject": "ОАиП",
     "type": "Л/Р",
-    "auditory": "219а",
+    "auditory": "204",
     "weekType": "ЧЕТ"
   },
   {
@@ -46,7 +46,7 @@
     "date":	"",
     "subject": "ОАиП",
     "type":	"ПР",
-    "auditory":	"221",
+    "auditory":	"206",
     "weekType":	"ЧЕТ"
   },
   {
@@ -98,6 +98,16 @@
     "type":	"ПР",
     "auditory":	"206",
     "weekType":	"ЧЕТ"
+  },
+  {
+    "group": "4231, 4234, 4236",
+    "day": "СР",
+    "time": "9:40",
+    "date": "",
+    "subject": "ОПБД",
+    "type": "ЛЕК",
+    "auditory": "431",
+    "weekType": "ЧЕТ"
   },
   {
     "group": 4435,
@@ -166,7 +176,7 @@
     "date":	"",
     "subject": "ОПБД",
     "type":	"ПР",
-    "auditory":	"223",
+    "auditory":	"426",
     "weekType":	"НЕЧЕТ"
   },
   {
@@ -187,6 +197,16 @@
     "subject": "ОПБД",
     "type":	"ПР",
     "auditory":	"437",
+    "weekType":	"ЧЕТ"
+  },
+  {
+    "group": 4236,
+    "day": "ПТ",
+    "time":	"13:30",
+    "date":	"",
+    "subject": "ОПБД",
+    "type":	"ПР",
+    "auditory":	"Перенос с СБ (чет)",
     "weekType":	"ЧЕТ"
   },
   {
@@ -236,7 +256,7 @@
     "date":	"",
     "subject": "ВиПКС",
     "type":	"ПР",
-    "auditory":	"227",
+    "auditory":	"223",
     "weekType":	"ЧЕТ"
   },
   {
@@ -246,7 +266,7 @@
     "date":	"",
     "subject": "ОПБД",
     "type":	"ПР",
-    "auditory":	"204",
+    "auditory":	"204 (перенос на ПТ (чет))",
     "weekType":	"ЧЕТ"
   },
   {
